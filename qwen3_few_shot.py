@@ -85,7 +85,6 @@ def evaluate_translation_with_qwen(source_text: str,
                 max_new_tokens=1024,
                 do_sample=False,
                 temperature=0.0,
-                top_p=1.0
             )
         
         # 응답 텍스트 추출

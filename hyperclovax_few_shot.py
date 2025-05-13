@@ -1,58 +1,65 @@
+from scipy.stats import kendalltau
+from tqdm import tqdm
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from typing import List, Dict, Tuple
+
 import pandas as pd
 import numpy as np
 import re
 import os
-from scipy.stats import kendalltau
-from tqdm import tqdm
 import matplotlib.pyplot as plt
 import seaborn as sns
-from typing import List, Dict, Tuple
 import json
 import argparse
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
 import yaml
+import logging
 
-# 명령행 인자 파서 설정
-parser = argparse.ArgumentParser(description='HyperCLOVAX LLM을 사용한 번역 품질 평가 (논문 원본 프롬프트 적용)')
-parser.add_argument('--data_path', type=str, required=True, help='평가 데이터셋 경로')
-parser.add_argument('--output_dir', type=str, default='results', help='결과 저장 디렉토리')
-parser.add_argument('--model', type=str, default='naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-0.5B', help='사용할 HyperCLOVAX 모델')
-parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu', help='실행 디바이스 (cuda/cpu)')
-parser.add_argument('--prompt_path', type=str, required=True, help='프롬프트 파일 경로')
-args = parser.parse_args()
 
-# 출력 디렉토리 생성
-os.makedirs(args.output_dir, exist_ok=True)
+# 로깅 설정
+def setup_logger():
+    """로깅 설정 초기화"""
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+    
+    # 콘솔 핸들러 설정
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(console_formatter)
+    logger.addHandler(console_handler)
+    
+    return logger
+
+# 로거 초기화
+logger = setup_logger()
 
 # 프롬프트 로드 함수
 def load_prompts(prompt_path):
-    """YAML 파일에서 프롬프트 정의를 로드합니다."""
+    """YAML 파일에서 프롬프트 로드"""
     try:
         with open(prompt_path, 'r', encoding='utf-8') as f:
             prompts = yaml.safe_load(f)
         return prompts
     except Exception as e:
-        print(f"프롬프트 파일 로드 중 오류 발생: {e}")
+        logger.error(f"프롬프트 파일 로드 중 오류 발생: {e}")
 
-# HyperCLOVAX 모델 및 토크나이저 로드
-print(f"모델 로드 중: {args.model}...")
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(
-    args.model,
-    torch_dtype=torch.float16 if args.device == 'cuda' else torch.float32,
-    device_map="auto"
-)
-print(f"{args.model} 모델 로드 완료!")
+def load_model(args):
+    # HyperCLOVAX 모델 및 토크나이저 로드
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model,
+        torch_dtype=torch.float32,
+        device_map="auto"
+    )
+    logger.info(f"{args.model} 모델 로드 완료!")
 
-# 프롬프트 로드
-print(f"프롬프트 파일 로드 중: {args.prompt_path}")
-prompts = load_prompts(args.prompt_path)
-print("프롬프트 로드 완료!")
+    return tokenizer, model
 
 # GEMBA-MQM 프롬프트 생성 함수
-def create_gemba_mqm_prompt(source_text: str, translation: str) -> str:
+def create_gemba_mqm_prompt(source_text: str, translation: str, prompt_path: str) -> str:
     """GEMBA-MQM 논문에서 제시한 Few-shot 프롬프트를 HyperCLOVAX 형식에 맞게 조정"""
+    prompts = load_prompts(prompt_path)
     prompt_content = prompts['gemba_mqm_prompt'].format(source_text=source_text, translation=translation)
     
     # HyperCLOVAX 모델에 맞는 프롬프트 형식 적용
@@ -60,8 +67,9 @@ def create_gemba_mqm_prompt(source_text: str, translation: str) -> str:
     return formatted_prompt
 
 # EAPrompt 프롬프트 생성 함수
-def create_ea_prompt(source_text: str, translation: str) -> str:
+def create_ea_prompt(source_text: str, translation: str, prompt_path: str) -> str:
     """EAPrompt 논문의 프롬프트 형식에 Few-shot 예제를 추가하고 HyperCLOVAX 형식에 맞게 조정"""
+    prompts = load_prompts(prompt_path)
     prompt_content = prompts['ea_prompt'].format(source_text=source_text, translation=translation)
     
     # HyperCLOVAX 모델에 맞는 프롬프트 형식 적용
@@ -72,19 +80,16 @@ def create_ea_prompt(source_text: str, translation: str) -> str:
 def evaluate_translation_with_hyperclovax(source_text: str, 
                               translation: str, 
                               prompt_type: str) -> Tuple[str, float]:
-    """HyperCLOVAX 모델을 사용하여 번역을 평가하고 MQM 점수를 추출합니다."""
-    
-    system_prompt = '''You are a professional translator and linguistics expert specialized in English-Korean translation.
-Your task is to evaluate the quality of machine translations based on specific criteria.'''
+    """HyperCLOVAX 모델을 사용하여 번역을 평가하고 MQM 점수 추출"""
+    system_prompt = '''You are an annotator for the quality of machine translation. Your task is to identify
+errors and assess the quality of the translation.'''
 
     # 프롬프트 생성
     if prompt_type == 'gemba_mqm':
-        user_prompt = create_gemba_mqm_prompt(source_text, translation)
+        user_prompt = create_gemba_mqm_prompt(source_text, translation, args.prompt_path)
     elif prompt_type == 'ea_prompt':
-        user_prompt = create_ea_prompt(source_text, translation)
-    else:
-        raise ValueError("지원되지 않는 프롬프트 유형입니다. 'gemba_mqm' 또는 'ea_prompt'를 사용하세요.")
-    
+        user_prompt = create_ea_prompt(source_text, translation, args.prompt_path)
+
     # HyperCLOVAX 모델 호출
     try:
         messages=[
@@ -97,7 +102,7 @@ Your task is to evaluate the quality of machine translations based on specific c
         with torch.no_grad():
             outputs = model.generate(
                 **inputs, 
-                max_length=1024, 
+                max_length=2048, 
                 stop_strings=["<|endofturn|>", "<|stop|>"], 
                 tokenizer=tokenizer,
                 do_sample=False,
@@ -110,40 +115,102 @@ Your task is to evaluate the quality of machine translations based on specific c
         # HyperCLOVAX 응답에서 <|assistant|> 이후 부분만 추출
         response_text = full_output.split("<|assistant|>")[-1].strip()
         
-        # MQM 점수 추출 - 문자열을 전달
-        mqm_score = extract_mqm_score(response_text)
+        # 에러 카운트 추출 및 MQM 점수 계산
+        if prompt_type == 'gemba_mqm':
+            error_counts = extract_error_counts(response_text, prompt_type)
+            mqm_score = calculate_mqm_score(error_counts, prompt_type)
+        elif prompt_type == 'ea_prompt':
+            error_counts = extract_error_counts(response_text, prompt_type)
+            mqm_score = calculate_mqm_score(error_counts, prompt_type)
         
         return response_text, mqm_score
     
     except Exception as e:
-        print(f"HyperCLOVAX 모델 호출 중 오류 발생: {e}")
+        logger.error(f"{args.model} 호출 중 오류 발생: {e}")
         return str(e), None
 
-# MQM 점수 추출 함수
-def extract_mqm_score(response_text: str) -> float:
-    """모델 응답에서 MQM 점수를 추출합니다."""
+def extract_error_counts(response_text: str, prompt_type: str) -> tuple:
+    """
+    모델 응답에서 에러 카운트(critical, major, minor)를 추출
+    """
+    if prompt_type == 'gemba_mqm':
+        # 'Output 3 numbers ONLY with the format: "x, x, x"' 질문 찾기
+        question_pattern = r'Output 3 numbers ONLY with the format: "x, x, x"'
+        question_match = re.search(question_pattern, response_text)
+        
+        if question_match:
+            # 질문 이후의 텍스트에서 답변 찾기
+            remaining_text = response_text[question_match.end():]
+            # A: 다음에 "x, x, x" 형태로 나오는 패턴 찾기
+            answer_pattern = r'A:\s*(\d+),\s*(\d+),\s*(\d+)'
+            answer_match = re.search(answer_pattern, remaining_text)
+            
+            if answer_match:
+                critical = int(answer_match.group(1))
+                major = int(answer_match.group(2))
+                minor = int(answer_match.group(3))
+                return critical, major, minor
+            
+        else:
+            # 응답 전체에서 "x, x, x" 패턴 찾기
+            for line in response_text.strip().split('\n'):
+                match = re.search(r'(\d+),\s*(\d+),\s*(\d+)', line)
+                if match:
+                    critical = int(match.group(1))
+                    major = int(match.group(2))
+                    minor = int(match.group(3))
+                    return critical, major, minor
+            
+    elif prompt_type == 'ea_prompt':
+        # 'Output 2 numbers ONLY with the format: "x, x"' 질문 찾기
+        question_pattern = r'Output 2 numbers ONLY with the format: "x, x"'
+        question_match = re.search(question_pattern, response_text)
+        
+        if question_match:
+            # 질문 이후의 텍스트에서 답변 찾기
+            remaining_text = response_text[question_match.end():]
+            # A: 다음에 "x, x" 형태로 나오는 패턴 찾기
+            answer_pattern = r'A:\s*(\d+),\s*(\d+)'
+            answer_match = re.search(answer_pattern, remaining_text)
+            
+            if answer_match:
+                major = int(answer_match.group(1))
+                minor = int(answer_match.group(2))
+                return major, minor
+
+        else:
+            # 응답 전체에서 "x, x" 패턴 찾기
+            for line in response_text.strip().split('\n'):
+                match = re.search(r'(\d+),\s*(\d+)', line)
+                if match:
+                    major = int(match.group(1))
+                    minor = int(match.group(2))
+                    return major, minor
+
+def calculate_mqm_score(error_counts: tuple, prompt_type: str) -> float:
+    """에러 카운트를 기반으로 MQM 점수 계산"""
+    if prompt_type == 'gemba_mqm':
+        critical, major, minor = error_counts
+        if any(count is None for count in [critical, major, minor]):
+            return None
+        mqm_score = 100 - (25 * critical + 5 * major + 1 * minor)
+    elif prompt_type == 'ea_prompt':
+        major, minor = error_counts
+        if any(count is None for count in [major, minor]):
+            return None
+        mqm_score = 100 - (10 * major + 2 * minor)
+    else:
+        logger.error(f"알 수 없는 프롬프트 유형: {prompt_type}")
+        return None
     
-    # "MQM score" 또는 "score" 근처에서 숫자 찾기
-    mqm_score_match = re.search(r'MQM\s*(?:score|점수)?\s*[=:]?\s*(\d+\.?\d*)', response_text, re.IGNORECASE)
-    if mqm_score_match:
-        return float(mqm_score_match.group(1))
+    # MQM 점수가 음수가 될 수 있으므로, 여기서 최소값을 0으로 제한
+    mqm_score = max(0, mqm_score)
     
-    # "final score" 근처에서 숫자 찾기
-    final_score_match = re.search(r'final\s*(?:score|점수)?\s*[=:]?\s*(\d+\.?\d*)', response_text, re.IGNORECASE)
-    if final_score_match:
-        return float(final_score_match.group(1))
-    
-    # 마지막 숫자 찾기 (최종 MQM 점수일 가능성이 높음)
-    numbers = re.findall(r'\d+\.?\d*', response_text)
-    if numbers:
-        return float(numbers[-1])
-    
-    return None
+    return mqm_score
 
 # 데이터 로드 및 전처리 함수
 def load_data(data_path: str) -> pd.DataFrame:
-    """번역 평가 데이터셋을 로드하고 전처리합니다."""
-    
+    """번역 평가 데이터셋을 로드하고 전처리"""
     df = pd.read_csv(data_path)
     df = df[['Source', 'MT', 'MTPE', 'MQMScore']]
     
@@ -151,14 +218,15 @@ def load_data(data_path: str) -> pd.DataFrame:
     required_cols = ['Source', 'MT', 'MTPE', 'MQMScore']
     for col in required_cols:
         if col not in df.columns:
-            raise ValueError(f"데이터셋에 필요한 컬럼 '{col}'이 없습니다.")
+            error_msg = f"데이터셋에 필요한 컬럼 '{col}'이 없습니다."
+            logger.error(error_msg)
+            raise ValueError(error_msg)
     
     return df
 
 # 결과 저장 함수
 def save_results(df: pd.DataFrame, output_dir: str, prompt_type: str, model_name: str):
-    """평가 결과를 저장합니다."""
-    
+    """최종 평가 결과 저장"""
     # 결과 파일 경로
     results_path = os.path.join(output_dir, f"{prompt_type}_{model_name.replace('/', '_')}_fewshot_results.csv")
     df.to_csv(results_path, index=False)
@@ -178,22 +246,21 @@ def save_results(df: pd.DataFrame, output_dir: str, prompt_type: str, model_name
     with open(corr_path, 'w') as f:
         json.dump(corr_results, f, indent=4)
     
-    print(f"\n{prompt_type} + {model_name} 평가 결과:")
-    print(f"Kendall's Tau: {corr:.4f} (p-value: {p_value:.4f})")
+    logger.info(f"{prompt_type} + {model_name} 평가 결과:")
+    logger.info(f"Kendall's Tau: {corr:.4f} (p-value: {p_value:.4f})")
     
     return corr_results
 
 # 중간 결과 저장 함수
 def save_checkpoint(df: pd.DataFrame, output_dir: str, prompt_type: str, model_name: str, iteration: int):
-    """중간 평가 결과를 저장합니다."""
-    
+    """중간 평가 결과 저장"""
     checkpoint_path = os.path.join(output_dir, f"{prompt_type}_{model_name.replace('/', '_')}_checkpoint_{iteration}.csv")
     df.to_csv(checkpoint_path, index=False)
+    logger.info(f"중간 결과가 {checkpoint_path}에 저장되었습니다.")
 
 # 시각화 함수
 def visualize_results(corr_results: List[Dict], output_dir: str):
-    """평가 결과를 시각화합니다."""
-    
+    """평가 결과 시각화"""
     df_corr = pd.DataFrame(corr_results)
     
     # 프롬프트 유형별 바 플롯 생성
@@ -210,12 +277,12 @@ def visualize_results(corr_results: List[Dict], output_dir: str):
     plt.savefig(os.path.join(output_dir, f'correlation_{args.model.replace("/", "_")}.png'))
     plt.close()
 
-def main():
+def main(args):
     # 데이터 로드
-    print(f"데이터셋 로드 중: {args.data_path}")
+    logger.info(f"데이터셋 로드 중: {args.data_path}")
     df = load_data(args.data_path)
-    print(f"로드된 샘플 수: {len(df)}")
-    
+    logger.info(f"로드된 샘플 수: {len(df)}")
+
     # 결과 저장할 리스트
     all_corr_results = []
     
@@ -225,10 +292,19 @@ def main():
         response_col = f'LLM_Response_{prompt_type}'
         score_col = f'LLM_MQM_{prompt_type}'
         
+        # 에러 카운트 저장을 위한 컬럼 추가
+        if prompt_type == 'gemba_mqm':
+            df['Critical_Errors'] = np.nan
+            df['Major_Errors'] = np.nan
+            df['Minor_Errors'] = np.nan
+        elif prompt_type == 'ea_prompt':
+            df['EA_Major_Errors'] = np.nan
+            df['EA_Minor_Errors'] = np.nan
+        
         df[response_col] = None
         df[score_col] = np.nan
         
-        print(f"\n{prompt_type} 방식으로 평가 시작")
+        logger.info(f"{prompt_type} 방식으로 평가 시작")
         
         # 각 번역에 대해 LLM 평가 수행
         for i, row in tqdm(df.iterrows(), total=len(df)):
@@ -241,12 +317,28 @@ def main():
             
             # 결과 저장
             df.at[i, response_col] = response
+            
+            # 에러 카운트 추출 및 저장
+            if prompt_type == 'gemba_mqm':
+                critical, major, minor = extract_error_counts(response, prompt_type)
+                if critical is not None:
+                    df.at[i, 'Critical_Errors'] = critical
+                    df.at[i, 'Major_Errors'] = major
+                    df.at[i, 'Minor_Errors'] = minor
+            elif prompt_type == 'ea_prompt':
+                major, minor = extract_error_counts(response, prompt_type)
+                if major is not None:
+                    df.at[i, 'EA_Major_Errors'] = major
+                    df.at[i, 'EA_Minor_Errors'] = minor
+            
+            # MQM 점수 저장
             if mqm_score is not None:
                 df.at[i, score_col] = mqm_score
             
-            # 중간 결과 저장 (매 10개 샘플마다)
-            # if (i + 1) % 10 == 0:
-            #     save_checkpoint(df, args.output_dir, prompt_type, args.model, i + 1)
+            # 중간 결과 저장
+            if (i + 1) % args.save_interval == 0:
+                save_checkpoint(df, args.output_dir, prompt_type, args.model, i + 1)
+                logger.info(f"{i+1}/{len(df)} 샘플 처리 완료")
                 
             # 메모리 캐시 정리
             if args.device == 'cuda':
@@ -259,11 +351,23 @@ def main():
     # 결과 시각화
     visualize_results(all_corr_results, args.output_dir)
     
-    print("\n평가 완료!")
+    logger.info("평가 완료!")
+
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='HyperCLOVAX LLM을 사용한 번역 품질 평가 (논문 원본 프롬프트 적용)')
+    parser.add_argument('--data_path', type=str, required=True, help='평가 데이터셋 경로')
+    parser.add_argument('--output_dir', type=str, default='results/hyperclovax', help='결과 저장 디렉토리')
+    parser.add_argument('--model', type=str, default='naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-0.5B', help='사용할 HyperCLOVAX 모델')
+    parser.add_argument('--device', type=str, default='cuda')
+    parser.add_argument('--prompt_path', type=str, required=True, help='프롬프트 파일 경로')
+    parser.add_argument('--save_interval', type=int, default=50, help='중간 결과 저장 간격')
+    args = parser.parse_args()
+
+    tokenizer, model = load_model(args)
+
+    main(args)
 
 
 
-# python hyperclovax_few_shot.py --data_path data/03_03_Createll_241111_firsttrans_eval_he.csv --prompt_path prompts/few_shot_prompt.yaml
+# python hyperclovax_few_shot.py --data_path data/03_03_Createll_241111_firsttrans_eval_he.csv --prompt_path prompts/ko_few_shot_prompt.yaml

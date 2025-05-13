@@ -1,0 +1,154 @@
+gemba_mqm_prompt: |
+  주어진 원문(source segment)과 기계 번역(machine translation)을 바탕으로 번역 오류 유형을 식별하고 분류하세요.
+
+  오류 유형은 다음과 같습니다:
+  - 정확성 (Accuracy):
+    * 추가 (Addition): 번역에 원문에 없는 정보가 포함되어 있음
+    * 오역 (Mistranslation): 번역이 원문을 정확히 반영하지 않음
+    * 누락 (Omission): 원문의 일부가 번역에서 빠짐
+    * 미번역 (Untranslated text): 텍스트가 번역되지 않음
+  - 유창성 (Fluency):
+    * 문자 인코딩 (Character encoding): 문자가 깨지거나 모지바케 현상이 있음
+    * 문법 (Grammar): 문법 오류가 있음
+    * 일관성 (Inconsistency): 스타일, 용어 등에서 일관성이 없음
+    * 문장부호 (Punctuation): 문장부호 사용에 문제가 있음
+    * 말투 (Register): 말투가 상황에 적절하지 않음
+    * 철자 (Spelling): 철자 오류가 있음
+  - 스타일 (Style): 번역 스타일이 적절하지 않음
+  - 용어 (Terminology): 용어 사용에 문제가 있음
+  - 기타 (Other): 기타 문제
+  - 비번역 (Non-translation): 원문이 손상되었거나 번역이 아님
+  - 오류 없음 (No-error): 해당 문장에는 오류 없음
+
+  각 오류를 다음 중 하나로 분류하십시오:
+  - 치명적 오류 (Critical): 번역이 완전히 틀렸거나, 오해를 유발하거나, 이해 불가능한 경우
+  - 중대 오류 (Major): 이해에 영향을 주지만 완전히 오해를 일으키지는 않는 경우
+  - 경미한 오류 (Minor): 이해에는 영향을 주지 않는 사소한 오류
+
+  MQM 점수 계산 방식:
+  - MQM 점수 = 100 - (25 x Critical + 5 x Major + 1 x Minor)
+
+  다음은 예시입니다:
+
+  Q:  
+  영어 원문: So we attach this by pressing Ctrl+J.  
+  참고 번역: Ctrl+J를 눌러서 이것을 연결합니다.  
+  한국어 번역: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+
+  A:  
+  Critical: 없음  
+  Major:  
+  - 오역: '붙여주는' (attaching) vs. '연결' (connecting)  
+  Minor:  
+  - 말투: "거죠"는 "합니다"보다 너무 비격식적임  
+  MQM 점수 = 100 - (5 + 1) = 94
+
+  Q:  
+  영어 원문: But, you'll notice something changed when we Actually, let's use this.  
+  참고 번역: 뭔가가 바뀐 것을 알 수 있습니다. 다른 것을 사용합시다.  
+  한국어 번역: 하지만, 실제로 이걸 사용할 때 뭔가 변화가 생긴다는 걸 알게 될 거예요.
+
+  A:  
+  Critical:  
+  - 오역: "무언가가 바뀌었다는 걸 알게 된다"는 의미 전달 실패
+  Major: 없음  
+  Minor:  
+  - 말투: "알게 될 거예요"는 "알 수 있습니다"보다 격식이 떨어짐  
+  - 스타일: "실제로 이걸 사용할 때"는 맥락상 부자연스러움  
+  MQM 점수 = 100 - (25 + 2) = 73
+
+  Q:  
+  영어 원문: When I press Ctrl+J, something different happens, right?  
+  참고 번역: 제가 Ctrl+J를 누르면, 다른 일이 발생합니다.  
+  한국어 번역: 제가 Ctrl+J를 누르면 뭔가 다르게 일어난다는 거죠, 맞나요?
+
+  A:  
+  Critical:  
+  - 오역: "뭔가 다르게 일어난다는 거죠"는 원문의 의미를 정확히 반영하지 못함  
+  Major: 없음  
+  Minor:  
+  - 말투: "거죠, 맞나요?"는 "발생합니다."에 비해 너무 비격식적임  
+  MQM 점수 = 100 - (25 + 1) = 74
+
+  다음 정보를 바탕으로 MQM 점수를 계산하세요:
+
+  Q:  
+  영어 원문: {source_text}  
+  한국어 번역: {translation}
+
+  A:
+
+ea_prompt: |
+  주어진 원문(source segment)과 기계 번역(machine translation)을 바탕으로 번역 오류 유형을 식별하고 분류하세요.
+
+  오류 유형은 다음과 같습니다:
+  - 정확성 (Accuracy):
+    * 추가 (Addition): 번역에 원문에 없는 정보가 포함되어 있음
+    * 오역 (Mistranslation): 번역이 원문을 정확히 반영하지 않음
+    * 누락 (Omission): 원문의 일부가 번역에서 빠짐
+    * 미번역 (Untranslated text): 텍스트가 번역되지 않음
+  - 유창성 (Fluency):
+    * 문자 인코딩 (Character encoding): 문자가 깨지거나 모지바케 현상이 있음
+    * 문법 (Grammar): 문법 오류가 있음
+    * 일관성 (Inconsistency): 스타일, 용어 등에서 일관성이 없음
+    * 문장부호 (Punctuation): 문장부호 사용에 문제가 있음
+    * 말투 (Register): 말투가 상황에 적절하지 않음
+    * 철자 (Spelling): 철자 오류가 있음
+  - 스타일 (Style): 번역 스타일이 적절하지 않음
+  - 용어 (Terminology): 용어 사용에 문제가 있음
+  - 기타 (Other): 기타 문제
+  - 비번역 (Non-translation): 원문이 손상되었거나 번역이 아님
+  - 오류 없음 (No-error): 해당 문장에는 오류 없음
+
+  각 오류를 다음 중 하나로 분류하십시오:
+  - 중대 오류 (Major): 이해에 영향을 주지만 완전히 오해를 일으키지는 않는 경우  
+  - 경미한 오류 (Minor): 이해에는 영향을 주지 않는 사소한 오류  
+
+  MQM 점수 계산 방식:  
+  `MQM 점수 = 100 - (10 x Major + 2 x Minor)`
+
+  예시:
+
+  Q:  
+  영어 원문: So we attach this by pressing Ctrl+J.  
+  참고 번역: Ctrl+J를 눌러서 이것을 연결합니다.  
+  한국어 번역: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+
+  A:  
+  Major:  
+  - "붙여주는" - 오역  
+  Minor:  
+  - "이걸", "거죠" - 말투  
+  MQM 점수 = 100 - (10 + 2) = 86
+
+  Q:  
+  영어 원문: But, you'll notice something changed when we Actually, let's use this.  
+  참고 번역: 뭔가가 바뀐 것을 알 수 있습니다. 다른 것을 사용합시다.  
+  한국어 번역: 하지만, 실제로 이걸 사용할 때 뭔가 변화가 생긴다는 걸 알게 될 거예요.
+
+  A:  
+  Major:  
+  - "실제로 이걸 사용할 때 뭔가 변화가 생긴다는" - 오역  
+  Minor:  
+  - "거예요" - 말투  
+  MQM 점수 = 100 - (10 + 2) = 86
+
+  Q:  
+  영어 원문: When I press Ctrl+J, something different happens, right?  
+  참고 번역: 제가 Ctrl+J를 누르면, 다른 일이 발생합니다.  
+  한국어 번역: 제가 Ctrl+J를 누르면 뭔가 다르게 일어난다는 거죠, 맞나요?
+
+  A:  
+  Major:  
+  - "뭔가 다르게 일어난다는 거죠" - 오역  
+  Minor:  
+  - "거죠, 맞나요?" - 말투  
+  MQM 점수 = 100 - (10 + 2) = 86
+
+  다음 정보를 바탕으로 MQM 점수를 계산하세요:
+  
+  Q:  
+  영어 원문: {source_text}  
+  한국어 번역: {translation}
+
+  A:

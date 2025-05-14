@@ -1,0 +1,161 @@
+gemba_mqm_prompt: |
+  Based on the source segment and machine translation surrounded with triple backticks, identify
+  error types in the translation and classify them. The categories of errors are: accuracy
+  (addition, mistranslation, omission, untranslated text), fluency (character encoding, grammar,
+  inconsistency, punctuation, register, spelling),
+  style (awkward), terminology (inappropriate for context, inconsistent use), non-translation,
+  other, or no-error.\n
+  Each error is classified as one of three categories: critical, major, and minor.
+  Critical errors inhibit comprehension of the text. Major errors disrupt the flow, but what
+  the text is trying to say is still understandable. Minor errors are technically errors,
+  but do not disrupt the flow or hinder comprehension.
+
+  Here are some examples:
+
+  Q:
+  English source: So we attach this by pressing Ctrl+J.
+  Reference: Ctrl+J를 눌러서 이것을 연결합니다.
+  Korean translation: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+
+  A:
+  Critical: 
+  No-error
+  Major: 
+  Mistranslation - '붙여주는' (attaching) vs. '연결' (connecting)
+  Minor: 
+  Register - "거죠" is too informal compared to a more appropriate "합니다"
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A: 0, 1, 1
+
+  Q:
+  English source: But, you'll notice something changed when we Actually, let's use this.
+  Reference: 뭔가가 바뀐 것을 알 수 있습니다. 다른 것을 사용합시다.
+  Korean translation: 하지만, 실제로 이걸 사용할 때 뭔가 변화가 생긴다는 걸 알게 될 거예요.
+  
+  A:
+  Critical: 
+  Mistranslation - The translation fails to convey that something has changed, suggesting "something changes" instead of "you'll notice something changed."
+  Major: 
+  No-error
+  Minor:
+  Register - "알게 될 거예요" is less formal than appropriate "알 수 있습니다"
+  Style - "실제로 이걸 사용할 때" is less natural for the context
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 0, 2
+
+  Q:
+  English source: When I press Ctrl+J, something different happens, right?
+  Reference: 제가 Ctrl+J를 누르면, 다른 일이 발생합니다.
+  Korean translation: 제가 Ctrl+J를 누르면 뭔가 다르게 일어난다는 거죠, 맞나요?
+  
+  A:
+  Critical: 
+  Mistranslation - "뭔가 다르게 일어난다는 거죠" incorrectly translates "something different happens"
+  Major:
+  No-error
+  Minor:
+  Register - "거죠, 맞나요?" is less formal than appropriate "발생합니다."
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 0, 1
+
+  Based on the given source and reference, calculate the final MQM score.
+
+  Q:
+  English source: {source_text}
+  Korean translation: {translation}
+
+  A:
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A:
+
+ea_prompt: |
+  Here are some examples:
+
+  Q:
+  English source: So we attach this by pressing Ctrl+J.
+  Reference: Ctrl+J를 눌러서 이것을 연결합니다.
+  Korean translation: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation. 
+
+  A:
+  Major errors:
+  (1) "붙여주는" - Mistranslation
+  Minor errors:
+  (1) "이걸" and "거죠" - Register
+
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 1
+
+  Q:
+  English source: But, you'll notice something changed when we Actually, let's use this.
+  Reference: 뭔가가 바뀐 것을 알 수 있습니다. 다른 것을 사용합시다.
+  Korean translation: 하지만, 실제로 이걸 사용할 때 뭔가 변화가 생긴다는 걸 알게 될 거예요.
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation. 
+
+  A:
+  Major errors:
+  (1) "실제로 이걸 사용할 때 뭔가 변화가 생긴다는" - Mistranslation
+  Minor errors:
+  (1) "거예요" - Register
+
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 1
+
+  Q:
+  English source: When I press Ctrl+J, something different happens, right?
+  Reference: 제가 Ctrl+J를 누르면, 다른 일이 발생합니다.
+  Korean translation: 제가 Ctrl+J를 누르면 뭔가 다르게 일어난다는 거죠, 맞나요?
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation. 
+
+  A:
+  Major errors:
+  (1)"뭔가 다르게 일어난다는 거죠" - Mistranslation
+  Minor errors:
+  (1)"거죠, 맞나요?" - Register
+  
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 1
+
+  Use the template above to answer the following question:
+
+  Q:
+  English source: {source_text}
+  Korean translation: {translation}
+
+  Based on the given source and reference, identify the major and minor errors in this
+  translation. Note that Major errors refer to actual translation or grammatical errors, and
+  Minor errors refer to smaller imperfections, and purely subjective opinions about the
+  translation.
+  
+  A: 
+
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 

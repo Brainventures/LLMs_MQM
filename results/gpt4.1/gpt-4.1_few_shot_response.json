@@ -1,0 +1,4252 @@
+[
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 1, 0",
+        "LLM_Score_gemba_mqm": 70,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4.1",
+        "LLM_Response_gemba_mqm": "0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "Major errors:\n(none)\n\nMinor errors:\n(1) \"눌러주세요\" - Register (The source is a simple imperative, but the translation uses a polite request form, which is a minor register mismatch.)\n\nQ: Based on the above error information,\nOutput 2 numbers ONLY with the format: \"x, x\",\nindicating the number of major and minor errors. DO NOT ADD other information!\n\nA: 0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "A: 0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "A: 0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "2, 1",
+        "LLM_Score_ea_prompt": 78,
+        "ea_prompt_major": 2,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "A: 1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "Major errors:\n(none)\n\nMinor errors:\n(1) \"예요\" - Register\n\nQ: Based on the above error information,\nOutput 2 numbers ONLY with the format: \"x, x\",\nindicating the number of major and minor errors. DO NOT ADD other information!\n\nA: 0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "Major errors:\n(1) \"이 면 세트를 사용해야 한다고 알려야 하는 거죠\" - Mistranslation (The source is about telling Blender to use the face sets, but the translation implies \"we have to tell Blender that we should use this face set,\" which is less accurate. The nuance of instructing Blender is lost.)\nMinor errors:\n(1) \"거죠, 맞죠?\" - Register (The ending is informal and conversational, which may not match the intended register.)\n\nQ: Based on the above error information,\nOutput 2 numbers ONLY with the format: \"x, x\",\nindicating the number of major and minor errors. DO NOT ADD other information!\n\nA: 1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "Major errors:\n(1) \"주요 오브젝트\" - Mistranslation (Misnomer): \"main objectives\" should be translated as \"주요 목표\" not \"오브젝트\", which means \"object\" (as in a physical or digital object), not \"objective\" (goal).\n(2) Omission: The causal relationship (\"because we have our main objectives\") is not clearly conveyed; the translation makes it sound like \"since we have main objects, we are just refining,\" which is a logical mismatch.\n\nMinor errors:\n(1) \"거예요\" - Register: Slightly informal ending, could be more neutral or formal depending on context.\n\nQ: Based on the above error information,\nOutput 2 numbers ONLY with the format: \"x, x\",\nindicating the number of major and minor errors. DO NOT ADD other information!\n\nA: 2, 1",
+        "LLM_Score_ea_prompt": 78,
+        "ea_prompt_major": 2,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "2, 0",
+        "LLM_Score_ea_prompt": 80,
+        "ea_prompt_major": 2,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "A: 0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "Major errors:\n(1) \"정의된 전환\" - Mistranslation (The phrase \"defined transition\" is not naturally or accurately rendered in Korean; it is awkward and unclear.)\n(2) \"또한 살이 있어요\" - Mistranslation (The structure and meaning are not clear; \"flesh\" is not properly connected to the rest of the sentence.)\n\nMinor errors:\n(1) \"있어요\" - Register (The use of \"있어요\" is informal and does not match the likely context.)\n\nQ: Based on the above error information,\nOutput 2 numbers ONLY with the format: \"x, x\",\nindicating the number of major and minor errors. DO NOT ADD other information!\n\nA: 2, 1",
+        "LLM_Score_ea_prompt": 78,
+        "ea_prompt_major": 2,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "A: 1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "A: 0, 1",
+        "LLM_Score_ea_prompt": 98,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 1
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "0, 0",
+        "LLM_Score_ea_prompt": 100,
+        "ea_prompt_major": 0,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 0",
+        "LLM_Score_ea_prompt": 90,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 0
+    },
+    {
+        "prompt_type": "ea_prompt",
+        "model": "gpt-4.1",
+        "LLM_Response_ea_prompt": "1, 1",
+        "LLM_Score_ea_prompt": 88,
+        "ea_prompt_major": 1,
+        "ea_prompt_minor": 1
+    }
+]

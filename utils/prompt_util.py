@@ -1,4 +1,5 @@
 from utils.data_util import setup_logger
+
 import yaml
 import logging
 
@@ -25,3 +26,14 @@ def create_ea_prompt(source_text: str, translation: str, prompt_path: str) -> st
     """EAPrompt 논문의 프롬프트 형식에 Few-shot 예제를 추가하고 형식에 맞게 조정"""
     prompts = load_prompts(prompt_path)
     return prompts['ea_prompt'].format(source_text=source_text, translation=translation)
+
+def create_gemba_mqm_prompt(source_text: str, translation: str, reference_text: str, prompt_path: str) -> str:
+    """GEMBA-MQM 논문에서 제시한 Few-shot 프롬프트를 형식에 맞게 조정"""
+    prompts = load_prompts(prompt_path)
+    return prompts['gemba_mqm_prompt'].format(source_text=source_text, reference_text=reference_text, translation=translation)
+
+# EAPrompt 프롬프트 생성 함수
+def create_ea_prompt(source_text: str, translation: str, reference_text: str, prompt_path: str) -> str:
+    """EAPrompt 논문의 프롬프트 형식에 Few-shot 예제를 추가하고 형식에 맞게 조정"""
+    prompts = load_prompts(prompt_path)
+    return prompts['ea_prompt'].format(source_text=source_text, reference_text=reference_text, translation=translation)

@@ -1,0 +1,7 @@
+{
+    "prompt_type": "gemba_mqm",
+    "model": "google/gemma-3-12b-it",
+    "kendall_tau": 0.33974314550533663,
+    "p_value": 1.3939832633165575e-11,
+    "sample_size": 250
+}

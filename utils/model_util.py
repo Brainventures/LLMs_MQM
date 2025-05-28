@@ -13,6 +13,11 @@ def load_model(args):
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
         torch_dtype=torch.float16,
+    )
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model,
+        torch_dtype=torch.bfloat16,
         device_map="auto"
     )
     logger.info(f"{args.model} 모델 로드 완료!")
@@ -23,6 +28,9 @@ def extract_error_counts(response_text: str, prompt_type: str) -> tuple:
     """
     모델 응답에서 에러 카운트(critical, major, minor)를 추출
     """
+    # 초기값
+    critical = major = minor = 0
+
     if prompt_type == 'gemba_mqm':
         # 응답 중 마지막 문장에서 "x, x, x" 패턴 찾기
         last_line = response_text.strip().split('\n')[-1]  # 마지막 줄만 추출
@@ -32,6 +40,8 @@ def extract_error_counts(response_text: str, prompt_type: str) -> tuple:
             major = int(match.group(2))
             minor = int(match.group(3))
             return critical, major, minor
+        else:
+            return critical, major, minor
 
     elif prompt_type == 'ea_prompt':
         # 응답 중 마지막 문장에서 "x, x, x" 패턴 찾기
@@ -40,6 +50,8 @@ def extract_error_counts(response_text: str, prompt_type: str) -> tuple:
         if match:
             major = int(match.group(1))
             minor = int(match.group(2))
+            return major, minor
+        else:
             return major, minor
 
 def calculate_mqm_score(error_counts: tuple, prompt_type: str) -> float:

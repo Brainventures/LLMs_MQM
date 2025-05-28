@@ -1,0 +1,7 @@
+{
+    "prompt_type": "ea_prompt",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "kendall_tau": 0.11688989102824096,
+    "p_value": 0.028254645521160054,
+    "sample_size": 250
+}

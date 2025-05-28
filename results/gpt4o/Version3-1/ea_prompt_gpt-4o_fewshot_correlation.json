@@ -1,0 +1,7 @@
+{
+    "prompt_type": "ea_prompt",
+    "model": "gpt-4o",
+    "kendall_tau": 0.39857408778030046,
+    "p_value": 1.3155878447749586e-14,
+    "sample_size": 250
+}

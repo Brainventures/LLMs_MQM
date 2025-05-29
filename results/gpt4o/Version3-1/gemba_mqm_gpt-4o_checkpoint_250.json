@@ -1,0 +1,2252 @@
+[
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"붙여주는\" vs. \"연결\"\nMinor Errors:\n- Style Mismatch: \"거죠\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"실제로 이걸 사용할 때\" vs. \"when we Actually, let's use this\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Word Choice: \"변화가 생긴다는\" vs. \"바뀐 것을\"\n- Style Mismatch: \"알게 될 거예요\" vs. \"알 수 있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 2\n\n1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거죠, 맞나요?\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"변했어요\" vs. \"바뀌었습니다\"\nMinor Errors:\n- Style Mismatch: \"변했어요\" vs. \"바뀌었습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"변한\" vs. \"바뀌었\"\nMinor Errors:\n- Style Mismatch: \"건가요\" vs. \"나요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"변했어요\" vs. \"바뀌었습니다\"\nMinor Errors:\n- Style Mismatch: \"변했어요\" vs. \"바뀌었습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거죠\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"여러분이\" vs. \"이\"\n- Style Mismatch: \"거죠\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"않아요\" vs. \"않습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Style Mismatch: \"때문이에요\" vs. \"때문입니다\"\nMinor Errors:\n- Terminology Consistency: \"서브디비전 모디파이어\" vs. \"Subdivision Modifier\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"결국 이게 기본형으로 삭제되는 거예요\" vs. \"this gets deleted\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"가져가요\" vs. \"가져갑니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"돌아가요\" vs. \"돌아갑니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"손가락을 합치는 것\" vs. \"how we merge the fingers\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Terminology Consistency: \"병합\" vs. \"Merge\"\n- Style Mismatch: \"거예요\" vs. \"할 것입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 2\n\n1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Terminology Consistency: \"정점\" vs. \"Vertices\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"돼요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"눌러주세요\" vs. \"누르세요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이 다른 손가락들을 원해요\" vs. \"I want these other fingers\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"맞죠?\" vs. \"해야겠죠?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"볼까요?\" vs. \"봅시다.\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"병합 중심\" vs. \"Merge>Center\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"이에요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이건 좀 이렇게 보이네요\" vs. \"this kind of looks…\"\nMajor Errors:\n- Word Choice: \"잘못 보이네요\" vs. \"잘못돼 보입니다\"\nMinor Errors:\n- Naturalness Issue: \"뻔뻔하게 그렇게 하고 있으니까요\" vs. \"shamelessly doing that\"\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 1\n\n1, 1, 1",
+        "LLM_Score_gemba_mqm": 69,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"수정하죠\" vs. \"고치죠\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"원하는 게 뭔지도\" vs. \"if we also want\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: \"우리는...\" is an unnecessary addition that wasn't in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"눌러요\" vs. \"누르세요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Terminology Consistency: \"정점\" vs. \"vertices\"\n\nMinor Errors:\n- Style Mismatch: \"눌러요\" vs. \"누릅니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"Fill로 닫을 수 있어요\" vs. \"close it up by Filling\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Terminology Consistency: \"Fill\" vs. \"채우기\"\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 2\n\n1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이게 생겼어요\" vs. \"you have this\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"생겼어요\" vs. \"되었습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그러니까, 다시 말해서\" vs. \"so, again\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Terminology Consistency: \"병합\" vs. \"Merge\"\n- Terminology Consistency: \"조인하고\" vs. \"합치고\"\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\n1, 0, 3",
+        "LLM_Score_gemba_mqm": 72,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 3
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"귀찮아요\" vs. \"번거롭습니다\"\nMinor Errors:\n- Style Mismatch: \"귀찮아요\" vs. \"번거롭습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- Terminology Consistency: \"병합할\" vs. \"Merge할\"\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"보시면\" vs. \"보면\"\n- Style Mismatch: \"다르죠\" vs. \"다릅니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Terminology Consistency: \"병합\" vs. \"Merge\"\n- Style Mismatch: \"거예요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"돼요\" vs. \"습니다\"\n- Naturalness Issue: \"그래서 우리는 이걸 그냥 옮기면\" is slightly awkward for the context.\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"엣지\" vs. \"모서리\"\nMinor Errors:\n- Style Mismatch: \"채워요\" vs. \"채웁니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"엉망인\" vs. \"scuffed\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"동일하지 않고\" vs. \"not equal\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Minor Errors:\n- Style Mismatch: \"있어요\" vs. \"생겼습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Minor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"사물이 못생기게 두는\" vs. \"let things be ugly\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"괜찮아요\" vs. \"괜찮습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"여기 다시\" vs. \"다시 여기\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Terminology Consistency: \"조인해요\" vs. \"합칩니다\"\n\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"Edge Loops\" vs. \"Bridge Edge Loops\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"병합해요\" vs. \"Merge 합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"한 번에 많은 걸 다루려고 할 때\" vs. \"once you have a lot of these vertices floating around\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"스킬도 필요해요\" vs. \"기술이 필요합니다\"\n- Style Mismatch: \"길을 찾아보세요\" vs. \"찾는 것도\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 2\n\n1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"엄격하지\" vs. \"가혹하게\"\n\nMinor Errors:\n- Style Mismatch: \"마세요\" vs. \"마세요.\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"두려고 해요\" vs. \"두겠습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: Missing \"I\" from \"I don't know.\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"모르겠어요\" vs. \"모르겠습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"브리지를 해요\" vs. \"Bridge Edge Loops를 사용합니다\"\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"안 되는 거죠\" vs. \"not work\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거죠\" vs. \"까요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이걸 위해 다른 걸 선택하는 걸 잊었네요\" vs. \"forgot to select the other for this\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그래도\" vs. \"Still\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"안 되네요\" vs. \"않습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"보고 싶어요\" vs. \"알고 싶습니다\"\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"그건\" vs. \"이건\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: \"넘어가서\" vs. \"moving on\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"우리는\" vs. \"할게요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"조사는... 만큼 빨랐어요\" vs. \"The investigation was as fast as...\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"알아요\" vs. \"알았습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"같아요\" vs. \"am\"\n\nMajor Errors:\n- Style Mismatch: \"내가\" vs. \"저는\"\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 0\n\n1, 1, 0",
+        "LLM_Score_gemba_mqm": 70,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Terminology Consistency: \"조인해요\" vs. \"Join\"\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"잘 될 거예요\" vs. \"잘 작동할 겁니다\"\n- Style Mismatch: \"거예요\" vs. \"겁니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"뭐죠\" vs. \"무엇인가요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"보실 수 있어요\" vs. \"보실 수 있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Minor Errors:\n- Style Mismatch: \"고쳐졌어요\" vs. \"고쳐졌습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"오른쪽 클릭\" vs. \"우클릭\"\nMinor Errors:\n- Style Mismatch: \"고쳐졌어요\" vs. \"고쳐집니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: Missing \"Let's\" from the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"하나요\" vs. \"할까요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"이에요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"이에요\" vs. \"이네요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"마를 수도 있어요\" vs. \"너무 말라서\"\nMinor Errors:\n- Style Mismatch: \"여러분이 하는 대로 하세요\" vs. \"되는 대로 하는 겁니다\"\n- Style Mismatch: \"쓸 수 있어요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 2\n\n0, 1, 2",
+        "LLM_Score_gemba_mqm": 93,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"움직여요\" vs. \"움직입니다\"\n- Style Mismatch: \"거예요\" vs. \"상황이죠\"\n- Style Mismatch: \"싶다고 하면\" vs. \"뿐인데\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 3\n\n0, 0, 3",
+        "LLM_Score_gemba_mqm": 97,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 3
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"귀찮네요\" vs. \"annoying\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"네요\" vs. \"납니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그걸 선택하는 거예요\" vs. \"select them\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"가급적 선택하세요\" vs. \"Select preferably… Preferably in this Face Mode\"\n\nMajor Errors:\n- Omission/Addition: Missing information about \"which we haven't…\"\n\nMinor Errors:\n- Style Mismatch: \"가급적\" vs. \"가능하면\"\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 1\n\n1, 1, 1",
+        "LLM_Score_gemba_mqm": 69,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"보시면\" vs. \"보면\"\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"면\" vs. \"Face\"\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- Word Choice: \"면으로 선택할 거고\" vs. \"Faces를 선택하고\"\n\nMinor Errors:\n- Style Mismatch: \"선택할 거예요\" vs. \"선택할 것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"돼요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"하죠\" vs. \"부르죠\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"에디트 모드로\" vs. \"by Edit Mode\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"치세요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: \"Selection\" is not translated or explained in the context of the source.\n- Meaning Error: \"Faces from…\" is mistranslated as \"Faces에서…\", which distorts the meaning.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"봅시다\"\n- Style Mismatch: \"예요\" vs. \"를 누르고\"\n- Style Mismatch: \"있어요\" vs. \"를 누르고\"\n\nFinal Error Count:\nCritical: 2\nMajor: 0\nMinor: 3\n\n2, 0, 3",
+        "LLM_Score_gemba_mqm": 47,
+        "gemba_mqm_critical": 2,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 3
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Terminology Consistency: \"면 세트\" vs. \"Face Set\"\n- Style Mismatch: \"예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"할 거예요\" vs. \"할 것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"했어야 했어요\" vs. \"해야 했습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이걸 눌러서 단축키로 작업할 수 있어요\" vs. \"you can make things in a hot key in Blender by pressing this and add you know?\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요. 아시죠?\" vs. \"있습니다.\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"빠른 즐겨찾기에서 제거하지 마세요\" vs. \"Not Remove from Quick Favorites\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"보시려면\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Terminology Consistency: \"면 세트\" vs. \"face sets\"\n- Style Mismatch: \"거죠, 맞죠?\" vs. \"하죠?\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Terminology Consistency: \"자동 마스킹\" vs. \"Auto Masking\"\n- Style Mismatch: \"있죠?\" vs. \"인데요?\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Naturalness Issue: \"위쪽에 여기 위치해 있어요\" is slightly awkward; \"여기\" and \"위쪽에\" are somewhat redundant.\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Naturalness Issue: \"뭐 어쨌든\" is awkward in this context.\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"것 같아요\" vs. \"싶었습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"가능해져요\" vs. \"필요가 없습니다\"\n- Style Mismatch: \"말이죠\" vs. \"없습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이건 잘못 보이네요\" vs. \"it looks wrong\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"보이네요\" vs. \"것 같습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"없어요\" vs. \"안 되네요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"많아요\" vs. \"많습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"좋겠어요\" vs. \"해야 합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"보죠\" vs. \"봅시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"조정자\" vs. \"adjusters\" (misinterpretation of \"adjusters\" as \"조정자\" instead of \"수정\")\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"기억하나요?\" vs. \"기억하시나요?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"일 거예요\" vs. \"일 것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- Word Choice: \"병합하는\" vs. \"Merge\"\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 2\n\n0, 1, 2",
+        "LLM_Score_gemba_mqm": 93,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: The ellipsis \"...\" in the candidate suggests missing content that is not present in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"옮겨요\" vs. \"이동시킵니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"여기서 측면으로 점점 가늘어지는 부분이요\" vs. \"where it kind of tapers to the side\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그 부분에 바로 가야 해요\" vs. \"we'll go right on that because you remember we have this idea that we noticed\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있었잖아요\" vs. \"있었던 것을 기억하시죠?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"보존하려고 할 거예요\" vs. \"preserve\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"할 거예요\" vs. \"합시다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"병합하죠?\" vs. \"병합하는 방법입니다.\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n- Terminology Consistency: \"면\" vs. \"Face\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"돼요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"구멍의 가장자리를\" vs. \"connect the edges connect the hole\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"봐요\" vs. \"봅시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: \"이거와 그 다음에\" adds extra content not present in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그거 정말...\" vs. \"that looks...\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Naturalness Issue: \"그건 뭔가네요!\" is awkward in this context.\n- Style Mismatch: \"조정해요\" vs. \"조정해 봅시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"정말\" vs. \"너무\"\nMinor Errors:\n- Style Mismatch: \"작네요\" vs. \"작습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"없어요\" vs. \"없습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그냥 다듬고 있는 거예요\" vs. \"Just refining\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Terminology Consistency: \"토폴로지\" vs. \"Topology\"\n- Style Mismatch: \"돼요\" vs. \"하세요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Style Mismatch: \"'일종의 토폴로지'를 만들었어.\" vs. \"Topology를 만들었습니다.\"\nMinor Errors:\n- Style Mismatch: \"왜 이렇게 말하냐면요?\" vs. \"이 말을 왜 했냐고요?\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"토폴로지 주변에는\" vs. \"around topology where\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있을 거예요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"맥락을 위해\" vs. \"for context, this is a tri\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"squads\" vs. \"사각형\" and \"tries\" vs. \"삼각형\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"사각형\" vs. \"squads\"\n- Meaning Error: \"삼각형\" vs. \"tries\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 2\nMajor: 0\nMinor: 1\n\n2, 0, 1",
+        "LLM_Score_gemba_mqm": 49,
+        "gemba_mqm_critical": 2,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Terminology Consistency: \"메시 토폴로지\" vs. \"Mesh Topology\"\n- Style Mismatch: \"이에요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"이런 종류의\" vs. \"이러한\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"우리는… 지금 그걸 진행하나요?\" vs. \"Do we go through that now?\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"진행하나요?\" vs. \"진행할까요?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"진행할 거예요\" vs. \"go through\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"노말\" vs. \"Normal\"\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"겠습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"해야 할 겁니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그래서\" vs. \"So if\"\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"내가\" vs. \"제가\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"말아요\" vs. \"말아봅시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"실제로 감각이 있는\" vs. \"that actually makes sense\"\n\nMajor Errors:\n- Word Choice: \"더 좋은 걸\" vs. \"좀 더 괜찮은 예시를\"\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 0\n\n1, 1, 0",
+        "LLM_Score_gemba_mqm": 70,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해봅시다\" vs. \"했을 때\"\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"또 다른 방법은\" vs. \"also also do is\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"변하는지\" vs. \"변화하는지\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"말하는 거예요\" vs. \"알려줍니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"못생겨 보이지만\" vs. \"보기 싫지만\"\n\nMinor Errors:\n- Style Mismatch: \"아시겠죠\" vs. \"아시겠죠.\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이게 더 나은 방법으로 보는 거예요\" vs. \"This is a better way to see it\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Naturalness Issue: \"솔직히 말해서\" vs. \"honestly\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"더 부드럽게 느껴져요\" vs. \"부드럽습니다\"\n\nMinor Errors:\n- Style Mismatch: \"느껴져요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"않아요\" vs. \"않습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"여기 가장자리가 있어요\" vs. \"the edge like here\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"보이세요?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"입니다\"\n- Terminology Consistency: \"토폴로지\" vs. \"Topology\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"노말로\" vs. \"Normal로\"\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"겠습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"하지만 알겠어요\" vs. \"But okay\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Naturalness Issue: \"뭐 어쨌든, 못생겼다면 못생겼다고 두세요\" vs. \"그냥 못생긴 대로 두세요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"예요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Naturalness Issue: \"당신이 전달하고자 하는 것의 측면을 잘 전달하기만 하면\" is awkward and repetitive.\nMinor Errors:\n- Style Mismatch: \"작동할 수 있어요\" vs. \"도움이 될 수 있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"저를 괴롭히고 있어요\" vs. \"bothering me\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"네요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"맞지 않아요\" vs. \"옳지 않아요\"\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 0\n\n0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이 부위는 잘 작동해요\" vs. \"this works out\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Naturalness Issue: \"기분이 좋죠, 맞나요?\" vs. \"It feels nice, right?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"붙는 방식이 부족하게 느껴져요\" vs. \"how it attaches feels lacking\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"느껴져요\" vs. \"느낌입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"이거\" vs. \"이것\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"잖아요\" vs. \"죠\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"두꺼워요\" vs. \"두껍습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"두꺼워요\" vs. \"두껍습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"두꺼움을\" vs. \"the fat\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"예시일 거예요\" vs. \"예시일 수도 있겠네요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: Extra content \"해서\" that wasn't in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"해서\" vs. \"할 겁니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"손 안으로 들어가거든요\" vs. \"go into the hand\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"손 안으로 들어가니까\" vs. \"go into the hand\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"않아요\" vs. \"않습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"만들어요\" vs. \"만듭니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"예술적인\" vs. \"미적\"\nMinor Errors:\n- Style Mismatch: \"부분이에요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"만들어주세요\" vs. \"만드세요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Terminology Consistency: \"토폴로지\" vs. \"Topology\"\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Terminology Consistency: \"리토포\" vs. \"Retopology\"\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"하세요\" vs. \"하시나요\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"확장하고\" vs. \"expand this\" (should be \"연장하고\" for \"make it longer\")\n- Meaning Error: \"더 작게 만들어요\" vs. \"make it smaller\" (should be \"가늘게\" for \"make it thinner\")\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"만들어요\" vs. \"만듭니다\"\n\nFinal Error Count:\nCritical: 2\nMajor: 0\nMinor: 1\n\n2, 0, 1",
+        "LLM_Score_gemba_mqm": 49,
+        "gemba_mqm_critical": 2,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"손과 손 사이의 전환\" vs. \"the palm and the hand\"\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"날카로워요\" vs. \"날렵합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"할 거예요\" vs. \"할 것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"매트를 사용해서\" vs. \"use math to\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶은데\" / \"합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"기본 설정이 있다면\" vs. \"if you have default\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"눌러요\" vs. \"누릅니다\"\n- Style Mismatch: \"없을 거예요\" vs. \"없을 것입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 2\n\n1, 0, 2",
+        "LLM_Score_gemba_mqm": 73,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"쇼 노트\" vs. \"강의 노트\"\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 0\n\n0, 1, 0",
+        "LLM_Score_gemba_mqm": 95,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"이에요\" vs. \"입니다\"\n- Terminology Consistency: \"블렌더\" vs. \"Blender\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 2\n\n0, 0, 2",
+        "LLM_Score_gemba_mqm": 98,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 2
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"켜기만\" vs. \"활성화\"\nMinor Errors:\n- Style Mismatch: \"돼요\" vs. \"됩니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"쇼 노트\" vs. \"show notes\"\n\nMajor Errors:\n- Word Choice: \"흐름을 너무 많이 바꾸고 싶지 않거든요\" vs. \"강의 흐름을 끊고 싶지 않기 때문에\"\n\nMinor Errors:\n- Style Mismatch: \"확인하세요\" vs. \"확인해 주세요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 1\n\n1, 1, 1",
+        "LLM_Score_gemba_mqm": 69,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"눌러요\" vs. \"누릅니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"손으로 가기를 원해요\" vs. \"to go to the hand\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"원해요\" vs. \"연결합니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"날카롭게 만들었기 때문에\" vs. \"as I sharpened it\"\n\nMajor Errors:\n- Word Choice: \"날카롭다는\" vs. \"날렵해졌어요\"\n\nMinor Errors:\n- Style Mismatch: \"알아요\" vs. \"아까\"\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 1\n\n1, 1, 1",
+        "LLM_Score_gemba_mqm": 69,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"만들어요\" vs. \"만듭니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Word Choice: \"뭐가 있을까요?\" vs. \"무엇을 더 해야 할까요?\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"그럼...\" vs. \"포인트를 조금 더 증명해 봅시다.\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"뼈와 뼈가 있는 손가락\" vs. \"bony fingers\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"걸까요\" vs. \"있죠\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: The candidate translation ends with \"우리는...\" which is incomplete and adds unnecessary content not present in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있고\" vs. \"있어요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"맙시다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이걸 위해 우리가 한 엉망인 것 말고\" vs. \"not this scuff one we did for this\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"이야기할게요\" vs. \"이야기하겠지만\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"알 수 있어요\" vs. \"보이죠?\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"괜찮아요\" vs. \"괜찮습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"에 대해요\" vs. \"말입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- Word Choice: \"변형시키는\" vs. \"변형해 보면서\"\n\nMinor Errors:\n- Style Mismatch: \"거예요\" vs. \"것입니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"할게요\" vs. \"하겠습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"되면요\" vs. \"발생합니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"사실 이상한 것 중 또 무엇이 있을까요?\" vs. \"What else is actually weird but texturing.\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 0\n\n1, 0, 0",
+        "LLM_Score_gemba_mqm": 75,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"고려해야 해요\" vs. \"accounts to\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"해요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"없어요\" vs. \"없습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이 모든 것과 함께\" vs. \"with all of this\"\nMajor Errors:\n- Word Choice: \"엉망인\" vs. \"어설픈\"\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 1\nMinor: 1\n\n1, 1, 1",
+        "LLM_Score_gemba_mqm": 69,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: \"그리고 그 비율을 고치고 이 손가락들의 비율도 수정해야 해요.\" is an unnecessary repetition not present in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"본질적으로\" vs. \"essentially\"\n- Meaning Error: \"손을 가지고 있어요\" vs. \"we have our hand\"\n\nMajor Errors:\n- Word Choice: \"엉망인\" vs. \"scuffed\"\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"했습니다\"\n\nFinal Error Count:\nCritical: 2\nMajor: 1\nMinor: 1\n\n2, 1, 1",
+        "LLM_Score_gemba_mqm": 44,
+        "gemba_mqm_critical": 2,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"엉망인\" vs. \"scuffed\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"이에요\" vs. \"이네요\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Terminology Consistency: \"토폴로지\" vs. \"Topology\"\n- Style Mismatch: \"손이에요\" vs. \"손입니다\"\n- Style Mismatch: \"갖추고 있어요\" vs. \"갖춘\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 3\n\n0, 0, 3",
+        "LLM_Score_gemba_mqm": 97,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 3
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- None\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 0\n\n0, 0, 0",
+        "LLM_Score_gemba_mqm": 100,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 0
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- Word Choice: \"형태를 만들 수 있는\" vs. \"shaped further into\"\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 1\nMinor: 1\n\n0, 1, 1",
+        "LLM_Score_gemba_mqm": 94,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 1,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: Missing the completion of the sentence \"that is for...\" which is present in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있을 수 있어요\" vs. \"할 수도 있습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"싶어요\" vs. \"싶습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"여기 좀 살펴보러 갈 거예요\" vs. \"we're gonna go look at here\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"살펴봅시다\" vs. \"보도록 하죠\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"특징\" vs. \"features\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"무엇인가요?\" vs. \"있을까요?\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"특징\" vs. \"features\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"없어요\" vs. \"않습니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"이 손이\" vs. \"The main feature that it has\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"이거예요\" vs. \"이겁니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Omission/Addition: \"flesh\" is translated as \"살이 있어요\" which adds the meaning of \"there is flesh\" not present in the source.\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"그 두 가지의 주요 차이점이에요\" vs. \"the main difference between those two\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"차이점이에요\" vs. \"차이점입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- Meaning Error: \"팔로 전환되는\" vs. \"transitions to the, arm\"\n\nMajor Errors:\n- None\n\nMinor Errors:\n- Style Mismatch: \"이에요\" vs. \"입니다\"\n\nFinal Error Count:\nCritical: 1\nMajor: 0\nMinor: 1\n\n1, 0, 1",
+        "LLM_Score_gemba_mqm": 74,
+        "gemba_mqm_critical": 1,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    },
+    {
+        "prompt_type": "gemba_mqm",
+        "model": "gpt-4o",
+        "LLM_Response_gemba_mqm": "Critical Errors:\n- None\nMajor Errors:\n- None\nMinor Errors:\n- Style Mismatch: \"있어요\" vs. \"있습니다\"\n\nFinal Error Count:\nCritical: 0\nMajor: 0\nMinor: 1\n\n0, 0, 1",
+        "LLM_Score_gemba_mqm": 99,
+        "gemba_mqm_critical": 0,
+        "gemba_mqm_major": 0,
+        "gemba_mqm_minor": 1
+    }
+]

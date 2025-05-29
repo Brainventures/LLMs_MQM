@@ -1,0 +1,258 @@
+gemba_mqm_prompt: |
+  Based on the source segment and machine translation surrounded with triple backticks, identify
+  error types in the translation and classify them. The categories of errors are: accuracy
+  (addition, mistranslation, omission, untranslated text), fluency (character encoding, grammar,
+  inconsistency, punctuation, register, spelling),
+  style (awkward), terminology (inappropriate for context, inconsistent use), non-translation,
+  other, or no-error.
+  Critical errors inhibit comprehension of the text.
+  Major errors disrupt the flow, but what the text is trying to say is still understandable.
+  Minor errors are technically errors, but do not disrupt the flow or hinder comprehension.
+
+  MQM error definition
+  Accuracy
+  - Addition: Error occuring in the target content that includes content not present in the source.
+  - Omission: Error where content present in the source is missing in the target.
+  - Misnomer: The target text is more/less specific than the raw
+  - Mistranslation
+    - General: Translation does not accurately represent the source. Wrong translation in the
+    target language. E.g., the wrong word is used in the target language; mistranslation
+    of a false friend (word or expression that has a similar form in the source and target
+    languages, but a different meaning);
+    - Overly literal: Direct translation of idioms, sentences, and structures;
+    - Temporal effect: Historical linguistic elements such as spelling, semantics, and morphology that
+    affect the accuracy of translation.
+  - Untranslated: Error occuring when a text segment that was intended for translation is omitted in
+  the target content.
+
+  Fluency
+  - Punctuation/Spelling: Punctuation marks missing or used in the wrong way/Issues related to the spelling
+  of words (Including those of capitalization hyphenated words and use of as risk for
+  censored swear words.)
+  - Grammar: Issues related to the grammar or syntax of the text. other than spelling and orthography (especially inconsistency of the tenses and conditionals)
+  - Inconsistency: The text shows internal inconsistency
+  - coherence: The text is not semantically clear, logical, and consistent, and, therefore, it cannot
+  be understood by the reader; E.g., - Unclear reference: Relative pronouns or other
+  referential mechanisms unclear in their reference.
+
+  Style
+  - Awkwardness: Style involving excessive wordiness or overly embedded clauses, often due to
+  inappropriate retention of source text style in the target text.
+  - Register: Characteristic of text that uses a level of formality higher or lower than required by
+  the specifications or general language conventions.
+  - Inconsistent: Style is inconsistent within a text
+  - Unidiomatic Style that is grammatical, but unnatural.
+
+  Terminology
+  - Mistranslation: A genre-specific or cultural-specific terminology is wrongly translated. Use of
+  term that it is not the term a domain expert would use or because it gives rise to a
+  conceptual mismatch.
+  - Inconsistent: Terminology is used in a consistent manner within the text
+
+  Locale Convention (non-cultrual)
+  - Location Format: Using the wrong format for address, name etc.
+  - Number Format: The translated date, time, currency, and telephone use formats inappropriate for its
+  locale.
+
+  Others: Other issues that haven't been included in this list.
+
+  Non-translation: Non-translation error that can be used to tag an entire sentence which is too badly
+  garbled to permit reliable identification of individual errors.
+
+  Here are some examples:
+
+  Q:
+  English source: So we attach this by pressing Ctrl+J.
+  Reference: Ctrl+J를 눌러서 이것을 연결합니다.
+  Korean translation: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+  Based on the given source and reference, identify the critical, major and minor errors in this translation.
+
+  A:
+  Critical: 
+  No-error
+  Major: 
+  Mistranslation - '붙여주는' (attaching) vs. '연결' (connecting)
+  Minor: 
+  Register - "거죠" is too informal compared to a more appropriate "합니다"
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A: 0, 1, 1
+
+  Q:
+  English source: But, you'll notice something changed when we Actually, let's use this.
+  Reference: 뭔가가 바뀐 것을 알 수 있습니다. 다른 것을 사용합시다.
+  Korean translation: 하지만, 실제로 이걸 사용할 때 뭔가 변화가 생긴다는 걸 알게 될 거예요.
+  Based on the given source and reference, identify the critical, major and minor errors in this translation.
+
+  A:
+  Critical: 
+  Mistranslation - The translation fails to convey that something has changed, suggesting "something changes" instead of "you'll notice something changed."
+  Major: 
+  No-error
+  Minor:
+  Register - "알게 될 거예요" is less formal than appropriate "알 수 있습니다"
+  Style - "실제로 이걸 사용할 때" is less natural for the context
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 0, 2
+
+  Q:
+  English source: When I press Ctrl+J, something different happens, right?
+  Reference: 제가 Ctrl+J를 누르면, 다른 일이 발생합니다.
+  Korean translation: 제가 Ctrl+J를 누르면 뭔가 다르게 일어난다는 거죠, 맞나요?
+  Based on the given source and reference, identify the critical, major and minor errors in this translation.
+
+  A:
+  Critical: 
+  Mistranslation - "뭔가 다르게 일어난다는 거죠" incorrectly translates "something different happens"
+  Major:
+  No-error
+  Minor:
+  Register - "거죠, 맞나요?" is less formal than appropriate "발생합니다."
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 0, 1
+
+  Q:
+  English source: {source_text}
+  Korean translation: {translation}
+  Based on the given source and reference, identify the critical, major and minor errors in this translation.
+
+  A:
+
+  Q: Based on the above error information,
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+  
+  A:
+
+ea_prompt: |
+  MQM error definition
+  Accuracy
+  - Addition: Error occuring in the target content that includes content not present in the source.
+  - Omission: Error where content present in the source is missing in the target.
+  - Misnomer: The target text is more/less specific than the raw
+  - Mistranslation
+    - General: Translation does not accurately represent the source. Wrong translation in the
+    target language. E.g., the wrong word is used in the target language; mistranslation
+    of a false friend (word or expression that has a similar form in the source and target
+    languages, but a different meaning);
+    - Overly literal: Direct translation of idioms, sentences, and structures;
+    - Temporal effect: Historical linguistic elements such as spelling, semantics, and morphology that
+    affect the accuracy of translation.
+  - Untranslated: Error occuring when a text segment that was intended for translation is omitted in
+  the target content.
+
+  Fluency
+  - Punctuation/Spelling: Punctuation marks missing or used in the wrong way/Issues related to the spelling
+  of words (Including those of capitalization hyphenated words and use of as risk for
+  censored swear words.)
+  - Grammar: Issues related to the grammar or syntax of the text. other than spelling and orthography (especially inconsistency of the tenses and conditionals)
+  - Inconsistency: The text shows internal inconsistency
+  - coherence: The text is not semantically clear, logical, and consistent, and, therefore, it cannot
+  be understood by the reader; E.g., - Unclear reference: Relative pronouns or other
+  referential mechanisms unclear in their reference.
+
+  Style
+  - Awkwardness: Style involving excessive wordiness or overly embedded clauses, often due to
+  inappropriate retention of source text style in the target text.
+  - Register: Characteristic of text that uses a level of formality higher or lower than required by
+  the specifications or general language conventions.
+  - Inconsistent: Style is inconsistent within a text
+  - Unidiomatic Style that is grammatical, but unnatural.
+
+  Terminology
+  - Mistranslation: A genre-specific or cultural-specific terminology is wrongly translated. Use of
+  term that it is not the term a domain expert would use or because it gives rise to a
+  conceptual mismatch.
+  - Inconsistent: Terminology is used in a consistent manner within the text
+
+  Locale Convention (non-cultrual)
+  - Location Format: Using the wrong format for address, name etc.
+  - Number Format: The translated date, time, currency, and telephone use formats inappropriate for its
+  locale.
+
+  Others: Other issues that haven't been included in this list.
+
+  Non-translation: Non-translation error that can be used to tag an entire sentence which is too badly
+  garbled to permit reliable identification of individual errors.
+
+  Here are some examples:
+
+  Q:
+  English source: So we attach this by pressing Ctrl+J.
+  Reference: Ctrl+J를 눌러서 이것을 연결합니다.
+  Korean translation: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation. 
+
+  A:
+  Major errors:
+  (1) "붙여주는" - Mistranslation
+  Minor errors:
+  (1) "이걸" and "거죠" - Register
+
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 1
+
+  Q:
+  English source: But, you'll notice something changed when we Actually, let's use this.
+  Reference: 뭔가가 바뀐 것을 알 수 있습니다. 다른 것을 사용합시다.
+  Korean translation: 하지만, 실제로 이걸 사용할 때 뭔가 변화가 생긴다는 걸 알게 될 거예요.
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation. 
+
+  A:
+  Major errors:
+  (1) "실제로 이걸 사용할 때 뭔가 변화가 생긴다는" - Mistranslation
+  Minor errors:
+  (1) "거예요" - Register
+
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 1
+
+  Q:
+  English source: When I press Ctrl+J, something different happens, right?
+  Reference: 제가 Ctrl+J를 누르면, 다른 일이 발생합니다.
+  Korean translation: 제가 Ctrl+J를 누르면 뭔가 다르게 일어난다는 거죠, 맞나요?
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation. 
+
+  A:
+  Major errors:
+  (1)"뭔가 다르게 일어난다는 거죠" - Mistranslation
+  Minor errors:
+  (1)"거죠, 맞나요?" - Register
+  
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A: 1, 1
+
+  Use the template above to answer the following question:
+
+  Q:
+  English source: {source_text}
+  Korean translation: {translation}
+  Based on the given source and reference, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation.
+  
+  A: 
+
+  Q: Based on the above error information,
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!
+  
+  A:

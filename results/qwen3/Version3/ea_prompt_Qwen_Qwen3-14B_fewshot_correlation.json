@@ -1,0 +1,7 @@
+{
+    "prompt_type": "ea_prompt",
+    "model": "Qwen/Qwen3-14B",
+    "kendall_tau": 0.2980379211315071,
+    "p_value": 3.378884926350632e-09,
+    "sample_size": 250
+}

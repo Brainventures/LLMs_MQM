@@ -1,0 +1,205 @@
+gemba_mqm_prompt: |
+  You are an annotator for the quality of machine translation. 
+  Your task is to identify errors and assess the quality of the translation. 
+  Based on the source, the reference translations, and the candidate translation, identify the error types in the candidate translation and classify them.
+
+  Error Types:
+  - Meaning Error: The candidate **distorts or misrepresents** the meaning of the source. 
+  Evaluate this by comparing the candidate **primarily to the source**, not the reference.
+  - Omission/Addition: Important content is missing or extra content is added that wasn't in the source.
+  - Word Choice: Inappropriate or suboptimal word choice for the context. 
+  Do NOT classify this as Meaning Error. (e.g., \"변했어요\" vs. \"바뀌었어요\" → Word Choice)
+  - Grammar Error: Incorrect grammar or incomplete sentence structure.
+  - Naturalness Issue: Grammatically correct but awkward or unnatural phrasing.
+  - Style Mismatch: The style or tone is inconsistent (e.g., \"~어요\" vs. \"~습니다\"), without affecting meaning.
+  - Terminology Consistency: Incorrect or inconsistent use of technical terms or glossary items.
+
+  Severity Levels:
+  - Critical: Inhibits comprehension of the text. 
+  Errors classified as **Meaning Error** or **Omission/Addition** must always be assigned **Critical** level.
+  - Major: Disrupts the flow but still understandable.
+  - Minor: Does not disrupt flow or hinder comprehension.
+
+  Important Rules:
+  - Do NOT assign a single error to multiple categories. Choose only one that best fits.
+
+  Provide the errors in the following format:
+  Critical Errors:
+  - [Error Type]: [Error description]
+  Major Errors:
+  - [Error Type]: [Error description]
+  Minor Errors:
+  - [Error Type]: [Error description]
+
+  Example 1:
+  Source: So we attach this by pressing Ctrl+J.
+  Reference: Ctrl+J를 눌러서 이것을 연결합니다.
+  Candidate: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+  
+  Response:
+  Critical Errors:
+  - None
+  Major Errors:
+  - Word Choice: \"붙여주는\" vs. \"연결\"
+  Minor Errors:
+  - Style Mismatch: \"거죠\" vs. \"합니다\"
+
+  Final Error Count:
+  Critical: 0
+  Major: 1
+  Minor: 1
+
+  0, 1, 1
+
+  Example 2:
+  Source: So you have to also define if we also want… I'm emphasizing that again, IF we want, we can also define this gap.
+  Reference: 그래서 우리가 원한다면, 다시 강조하자면, 우리가 원한다면 이 간격도 정의할 수 있습니다.
+  Candidate: 그래서 우리가 또 원하는 게 뭔지도 정의해야 해요… 다시 강조하는데, 우리가 원한다면 이 간격도 정의할 수 있어요.
+  
+  Response:
+  Critical Errors:
+  - Meaning Error: \"원하는 게 뭔지도\" vs. \"if we also want\"
+  Major Errors:
+  - None
+  Minor Errors:
+  - Style Mismatch: \"있어요\" vs. \"있습니다\"
+
+  Final Error Count:
+  Critical: 1
+  Major: 0
+  Minor: 1
+
+  1, 0, 1
+
+  Example 3:
+  Source: So, again, we just join, and then we merge it by this.
+  Reference: 그래서 다시 우리는 그냥 합치고, Merge 합니다.
+  Candidate: 그러니까, 다시 말해서 우리는 그냥 조인하고, 그 다음에 이걸로 병합해요.
+  
+  Response: 
+  Critical Errors:
+  - Meaning Error: \"그러니까, 다시 말해서\" vs. \"so, again\"
+  Major Errors:
+  - None
+  Minor Errors:
+  - Terminology Consistency: \"병합\" vs. \"Merge\"
+  - Terminology Consistency: \"조인하고\" vs. \"합치고\"
+  - Style Mismatch: \"해요\" vs. \"합니다\"
+
+  Final Error Count:
+  Critical: 1
+  Major: 0
+  Minor: 3
+
+  1, 0, 3
+
+  Now evaluate the following:
+
+  Source: {source_text}
+  Reference: {reference_text}
+  Candidate: {translation}
+  Return ONLY the formatted error list.
+
+  Final Error Count:
+  Critical:
+  Major:
+  Minor:
+
+  Output 3 numbers ONLY with the format: "x, x, x",
+  indicating the number of critical, major and minor errors. DO NOT ADD other information!
+
+ea_prompt: |
+  You are an annotator for the quality of machine translation. 
+  Your task is to identify errors and assess the quality of the translation. 
+  Based on the source, the reference translations, and the candidate translation, identify the error types in the candidate translation and classify them.
+
+  Error Types:
+  - Meaning Error: The candidate **distorts or misrepresents** the meaning of the source. 
+  Evaluate this by comparing the candidate **primarily to the source**, not the reference.
+  - Omission/Addition: Important content is missing or extra content is added that wasn't in the source.
+  - Word Choice: Inappropriate or suboptimal word choice for the context. 
+  Do NOT classify this as Meaning Error. (e.g., \"변했어요\" vs. \"바뀌었어요\" → Word Choice)
+  - Grammar Error: Incorrect grammar or incomplete sentence structure.
+  - Naturalness Issue: Grammatically correct but awkward or unnatural phrasing.
+  - Style Mismatch: The style or tone is inconsistent (e.g., \"~어요\" vs. \"~습니다\"), without affecting meaning.
+  - Terminology Consistency: Incorrect or inconsistent use of technical terms or glossary items.
+
+  Severity Levels:
+  - Major: Disrupts the flow but still understandable. Includes Meaning Errors and Omissions/Additions.
+  - Minor: Does not disrupt flow or hinder comprehension. Includes style and terminology issues.
+
+  Important Rules:
+  - Do NOT assign a single error to multiple categories. Choose only one that best fits.
+
+  Provide the errors in the following format:
+  Major Errors:
+  - [Error Type]: [Error description]
+  Minor Errors:
+  - [Error Type]: [Error description]
+
+  Example 1:
+  Source: So we attach this by pressing Ctrl+J.
+  Reference: Ctrl+J를 눌러서 이것을 연결합니다.
+  Candidate: 그래서 Ctrl+J를 눌러서 이걸 붙여주는 거죠.
+  
+  Response:
+  Major Errors:
+  - Word Choice: \"붙여주는\" vs. \"연결\"
+  Minor Errors:
+  - Style Mismatch: \"거죠\" vs. \"합니다\"
+
+  Final Error Count:
+  Major: 1
+  Minor: 1
+
+  1, 1
+
+  Example 2:
+  Source: So you have to also define if we also want… I'm emphasizing that again, IF we want, we can also define this gap.
+  Reference: 그래서 우리가 원한다면, 다시 강조하자면, 우리가 원한다면 이 간격도 정의할 수 있습니다.
+  Candidate: 그래서 우리가 또 원하는 게 뭔지도 정의해야 해요… 다시 강조하는데, 우리가 원한다면 이 간격도 정의할 수 있어요.
+  
+  Response:
+  Major Errors:
+  - Meaning Error: \"원하는 게 뭔지도\" vs. \"if we also want\"
+  Minor Errors:
+  - Style Mismatch: \"있어요\" vs. \"있습니다\"
+
+  Final Error Count:
+  Major: 1
+  Minor: 1
+
+  1, 1
+
+  Example 3:
+  Source: So, again, we just join, and then we merge it by this.
+  Reference: 그래서 다시 우리는 그냥 합치고, Merge 합니다.
+  Candidate: 그러니까, 다시 말해서 우리는 그냥 조인하고, 그 다음에 이걸로 병합해요.
+  
+  Response: 
+  Major Errors:
+  - Meaning Error: \"그러니까, 다시 말해서\" vs. \"so, again\"
+  Minor Errors:
+  - Terminology Consistency: \"병합\" vs. \"Merge\"
+  - Terminology Consistency: \"조인하고\" vs. \"합치고\"
+  - Style Mismatch: \"해요\" vs. \"합니다\"
+
+  Final Error Count:
+  Major: 1
+  Minor: 3
+
+  1, 3
+
+  Now evaluate the following:
+
+  Source: {source_text}
+  Reference: {reference_text}
+  Candidate: {translation}
+  Return ONLY the formatted error list.
+
+  Final Error Count:
+  Major:
+  Minor:
+
+  Output 2 numbers ONLY with the format: "x, x",
+  indicating the number of major and minor errors. DO NOT ADD other information!

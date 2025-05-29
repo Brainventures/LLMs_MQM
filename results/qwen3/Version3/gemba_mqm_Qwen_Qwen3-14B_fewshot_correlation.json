@@ -1,0 +1,7 @@
+{
+    "prompt_type": "gemba_mqm",
+    "model": "Qwen/Qwen3-14B",
+    "kendall_tau": 0.28907916911323434,
+    "p_value": 1.6830930733711438e-08,
+    "sample_size": 250
+}

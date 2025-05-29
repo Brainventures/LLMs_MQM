@@ -1,0 +1,7 @@
+{
+    "prompt_type": "gemba_mqm",
+    "model": "gpt-4o",
+    "kendall_tau": 0.25199656162123646,
+    "p_value": 6.858075464034747e-07,
+    "sample_size": 250
+}

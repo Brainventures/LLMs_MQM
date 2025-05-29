@@ -52,7 +52,7 @@ def process_prompt_results(response: str, mqm_score: int, prompt_type: str, mode
         "prompt_type": prompt_type,
         "model": model,
         f"LLM_Response_{prompt_type}": response,
-        f"LLM_Score_{prompt_type}": round(mqm_score, 4),
+        f"LLM_Score_{prompt_type}": mqm_score,
     }
 
     if prompt_type == 'gemba_mqm':

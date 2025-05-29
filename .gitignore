@@ -1,0 +1,2 @@
+# Ignore response JSON files in results directory
+results/**/*response.json
